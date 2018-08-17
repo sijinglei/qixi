@@ -14,7 +14,7 @@ module.exports = {
     path: path.resolve(__dirname, 'public'),
     publicPath: isPro ? './public/' : '',
     filename: 'js/[name].js',
-    chunkFilename: path.join('./public/', './js/async/[name].js')
+    chunkFilename: path.join('', './js/async/[name].js')
   },
   resolve: {
     alias: {
@@ -23,7 +23,7 @@ module.exports = {
     }
   },
   devServer: {
-    contentBase: './public',
+    contentBase: '/public',
     historyApiFallback: true,
     inline: true
   },

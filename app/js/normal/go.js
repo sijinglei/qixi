@@ -285,9 +285,9 @@ function stars () {
     els[0].remove()
   }
   // https://sijinglei.github.io/i-love-you/
-  setTimeout(() => {
-    window.location.href = 'https://sijinglei.github.io/i-love-you/'
-  }, 3000)
+  // setTimeout(() => {
+  //   window.location.href = 'https://sijinglei.github.io/i-love-you/'
+  // }, 3000)
 }
 export {
   go
